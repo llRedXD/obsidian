@@ -1,0 +1,29 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FarNote-sticky",
+      "FarFolder"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "Intranet": {
+    "iconName": "FarFolder",
+    "inheritanceIcon": "FarNote-sticky"
+  },
+  "Diario": {
+    "iconName": "FarFolder",
+    "inheritanceIcon": "FarNote-sticky"
+  }
+}
