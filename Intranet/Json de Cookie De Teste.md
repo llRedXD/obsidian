@@ -1,31 +1,7 @@
 ```` json
 [
     {
-        "domain": "developer.yamauchi.lan",
-        "hostOnly": true,
-        "httpOnly": false,
-        "name": ".AuthCookie",
-        "path": "/",
-        "sameSite": null,
-        "secure": false,
-        "session": true,
-        "storeId": null,
-        "value": "gabriel.oliveira"
-    },
-    {
-        "domain": "developer.yamauchi.lan",
-        "hostOnly": true,
-        "httpOnly": false,
-        "name": ".AuthData",
-        "path": "/",
-        "sameSite": null,
-        "secure": false,
-        "session": true,
-        "storeId": null,
-        "value": "{\"dptoId\":1,\"grupoId\":1,\"perfilId\":1,\"usuarioId\":14,\"usuarioDescricao\":\"Gabriel Oliveira (T.I)\",\"nroEmpresa\":\"1\"}"
-    },
-    {
-        "domain": "developer.yamauchi.lan",
+        "domain": "localhost",
         "hostOnly": true,
         "httpOnly": false,
         "name": ".NroEmpresa",
@@ -37,16 +13,28 @@
         "value": "1"
     },
     {
-        "domain": "developer.yamauchi.lan",
+        "domain": "localhost",
         "hostOnly": true,
-        "httpOnly": true,
-        "name": "ASP.NET_SessionId",
+        "httpOnly": false,
+        "name": ".AuthCookie",
         "path": "/",
-        "sameSite": "lax",
+        "sameSite": null,
         "secure": false,
         "session": true,
         "storeId": null,
-        "value": "cbby3isipxtxhdnom02wb3ho"
+        "value": "gabriel.oliveira"
+    },
+    {
+        "domain": "localhost",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": ".AuthData",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "{\"dptoId\":1,\"dptoDescricao\":\"Teste Sistemas\",\"grupoId\":1,\"perfilId\":1,\"usuarioId\":14,\"usuarioDescricao\":\"Gabriel Oliveira (T.I)\",\"nroEmpresa\":\"1\"}"
     }
 ]
 ````

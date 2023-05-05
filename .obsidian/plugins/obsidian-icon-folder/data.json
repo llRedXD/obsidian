@@ -20,10 +20,10 @@
   },
   "Intranet": {
     "iconName": "FarFolder",
-    "inheritanceIcon": "FarNote-sticky"
+    "inheritanceIcon": "FarNoteSticky"
   },
   "Diario": {
     "iconName": "FarFolder",
-    "inheritanceIcon": "FarNote-sticky"
+    "inheritanceIcon": "FarCalendar"
   }
 }

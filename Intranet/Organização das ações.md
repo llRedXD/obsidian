@@ -1,0 +1,9 @@
+- Botão para Logout
+- Formulários Concluídos
+- Dashboard Reformulado
+- Validação de Login e Redirecionamento 
+- Adição de Funções na tela de Relacionamento
+- Popup de Sucesso na tela de configuração
+- Função no App de Relatório 
+- Estrutura das Permissões
+- Correção De Erro de CORS
