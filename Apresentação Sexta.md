@@ -1,0 +1,3 @@
+- [ ] Apresentação das melhorias da intranet
+- [ ] Correção de bugs
+- [ ] Documentação

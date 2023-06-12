@@ -1,0 +1,246 @@
+- [ ] Diretoria
+	- [ ] Relatório Aspas
+		-  Tabelas
+			- vsmy_RelApas
+		- Procedures
+			- Rel_Apas_Mensal
+- [ ] Financeiro
+	- [ ] Analise NSU Cartões
+		- Tabelas
+			- FI_TSCODMOVIMENTO
+			- FI_TSMOVTOOPEDETPROCESS
+			- FI_TSMOVTOOPEDETALHE
+			- fi_titulo
+			- ge_pessoa
+			- fi_cliente
+		- Procedures
+			- ANALISE_NSU_CARTAO
+	- [ ] Acordos
+		- Tabelas
+			- MSU_ACORDOPROMOC
+			- ge_pessoa
+		- Procedures
+			- ACORDOS_FINANCEIRO
+	- [ ] Totalizadores
+		- Tabelas
+			- consincomonitor.tb_docto
+			- consincomonitor.tb_doctoreducao
+			- consincomonitor.tb_totdiacheckout
+		- Procedures
+			- LISTAR_TOTALIZADORES_PDV
+- [ ] Fiscal
+	- [ ] Conferência Sat - Pdv x Gerencial x Fiscal
+		- Tabelas
+			- CUPONS_SAT_FISCAL
+			- CUPONS_SAT_PDV
+			- mfl_doctofiscal
+			- mfl_dfitem
+		- Procedures
+			- CONFERENCIA_SAT_PDV_FISCAL
+	- [ ] Conferência Produto Tributação
+		- Tabelas
+		- Procedures
+- [ ] Prevenção
+	- [ ] Analise de Recebimento de Cargas
+		- Tabelas
+			- smy_receb_cargas
+		- Procedures
+			- ANALISE_RECEBIMENTO_CARGAS
+	- [ ] Analise de Estoque CD x Loja com Média de Venda
+		- Tabelas
+			- mrl_custodia
+			- mrl_produtoempresa
+			- mrl_prodempseg
+			- map_produto
+		- Procedures
+			- ANALISE_ESTOQUE_LOJA_CD
+	- [ ] Analise de Movimentação
+		- Tabelas
+			- SMY_MOVIMENTACAO
+			- SMY_MOTIVOS
+			- Smy_Movimentacao_Itens
+			- maxv_mgmbaseprodseg
+			- MAP_PRODUTO
+		- Procedures
+			- ANALISE_MOVIMENTACAO
+	- [ ] Controle Validade de Produtos
+		- Tabelas
+			- VW_SMY_REL_CONTROLE_VALIDADE
+		- Procedures
+			- CONTROLE_VALIDADE_PRODUTO
+	- [ ] Gestão de Movimentação - Operações
+		- Tabelas
+		- Procedures
+	- [ ] Gestão de Movimentações - Itens por CGO
+		- Tabelas
+			- SMY_MOVIMENTACAO_ITENS
+			- smy_movimentacao
+			- maxv_mgmbaseprodseg
+			- MAP_PRODUTO
+			- map_famdivcateg
+			- map_categoria
+		- Procedures
+			- MOVIMENTACAO_ITENS_CGO
+	- [ ] Qtd de Venda
+		- Tabelas
+			- MAXV_ABCDISTRIBBASE
+			- MAP_PRODUTO
+			- INDPROCFABRICACAO
+			- MAXV_CATEGORIA
+			- GE_EMPRESA
+		- Procedures
+			- REL_QTD_VND
+- [ ] Comercial
+	- [ ] Analise de Estoque CD x Loja com Média de Venda Por Comprador x Fornecedor
+		- Tabelas
+			- map_famdivcateg
+			- map_produto
+			- map_prodcodigo
+			- map_categoria
+			- mrl_produtoempresa
+			- mrl_produtoempresa
+			- map_famdivisao
+			- map_famfornec
+			- MAX_COMPRADOR
+			- GE_PESSOA
+		- Procedures
+			- CONS_QTD_EST_CD_LJ_MV_COM_FORN
+	- [ ] Margem Comercial
+		- Tabelas
+			- SMYVM_MARGEM_COMERCIAL
+		- Procedures
+			- margem_comercial
+	- [ ] Custo x Preço
+		- Tabelas
+		- Procedures
+- [ ] Dp/Rh
+	- [ ] Apas
+		-   Tabelas
+			- Vsmy_RelApas
+		- Procedures
+			- Rel_Apas_Mensal
+- [ ] Marketing
+	- [ ] Analise de Regras de Incentivo - Cupons
+		- Tabelas
+			- consincomonitor.tb_doctocupompromociona
+			- consincomonitor.tb_regraincentivo
+			- consincomonitor.tb_regraincentivoperiodo
+			- consincomonitor.tb_docto
+			- consincomonitor.tb_doctocupom
+			- consincomonitor.tb_doctoitem
+			- consincomonitor.tb_doctocfe
+		- Procedures
+			- ANALISE_CUPOM_PROMOCAO
+	- [ ] Analise Aniversário 2018 - Cupons
+		- Tabelas
+			- SMY_DOCTO_SORTEIO
+			- GE_PESSOA
+			- smy_aniver_perfil_compra
+			- CONSINCOMONITOR
+			- SMY_DOCTO_SORTEIO_CC
+		- Procedures
+			- A_ANIVER2018_CLI_CUPOM
+- [ ] Loja
+	- [ ] Controle Validade de Produtos
+		- Tabelas
+			- VW_SMY_REL_CONTROLE_VALIDADE
+		- Procedures
+			- CONTROLE_VALIDADE_PRODUTO
+	- [ ] Analise de Estoque Loja x CD
+		- Tabelas
+			- mrl_custodia
+			- mrl_produtoempresa
+			- mrl_prodempseg
+			- map_produto
+		- Procedures
+			- ANALISE_ESTOQUE_LOJA_CD
+	- [ ] Analise de Estoque CD x Loja com Média de Venda
+		- Tabelas
+			- map_famdivcateg
+			- map_produto
+			- map_prodcodigo
+			- map_categoria
+			- mrl_produtoempresa
+			- mrl_produtoempresa
+			- map_famdivisao
+		- Procedures
+			- CONSULTA_QTD_EST_CD_LOJA_MV
+	- [ ] Custo x Preço
+		- Tabelas
+			- consinco.MAXV_MGMBASEPRODSEG
+			- consinco.MAP_REGIMETRIBUTACAO
+			- consinco.map_categoria
+			- consinco.mrl_produtoempresa
+			- CONSINCO.MAP_CATEGORIA
+		- Procedures
+			- CUSTO_PRECO
+	- [ ] Margem Comercial
+		- Tabelas
+			- SMYVM_MARGEM_COMERCIAL
+		- Procedures
+			- margem_comercial
+	- [ ] Qtd Venda
+		- Tabelas
+			- MAXV_ABCDISTRIBBASE
+			- MAP_PRODUTO
+			- MAP_FAMDIVCATEG
+			- MAXV_CATEGORIA
+			- GE_EMPRESA
+		- Procedures
+			- REL_QTD_VND
+- [ ] Encarregado
+	- [ ] Controle Validade de Produtos
+		- Tabelas
+			- VW_SMY_REL_CONTROLE_VALIDADE
+		- Procedures
+			- CONTROLE_VALIDADE_PRODUTO
+	- [ ] Analise de Estoque Loja x CD
+		- Tabelas
+			- mrl_custodia
+			- mrl_produtoempresa
+			- mrl_prodempseg
+			- map_produto
+		- Procedures
+			- ANALISE_ESTOQUE_LOJA_CD
+	- [ ] Analise de Estoque CD x Loja com Média de Venda
+		- Tabelas
+			- map_famdivcateg
+			- map_produto
+			- map_prodcodigo
+			- map_categoria
+			- mrl_produtoempresa
+			- mrl_produtoempresa
+			- map_famdivisao
+		- Procedures
+			- CONSULTA_QTD_EST_CD_LOJA_MV
+	- [ ] Qtd Venda
+		- Tabelas
+			- MAXV_ABCDISTRIBBASE
+			- MAP_PRODUTO
+			- MAP_FAMDIVCATEG
+			- MAXV_CATEGORIA
+			- GE_EMPRESA
+		- Procedures
+			- REL_QTD_VND
+	- [ ] Gestão de Movimentação - Operações
+		- Tabelas
+		- Procedures
+	- [ ] Insumo Ativo
+		- Tabelas
+			- MAP_PRODUTO
+			- MAP_PRODINSUMO
+			- MAP_PRODUTO
+			- MAP_PRODCODIGO
+			- MAP_FAMDIVCATEG
+			- MAP_CATEGORIA
+		- Procedures
+			- INSUMOS_ATIVOS
+- [ ] Mobile
+	- [ ] Compras Mobile
+		- Tabelas
+			- mac_tmp_mob_compraitens
+			- map_produto
+			- ge_pessoa
+			- map_famembalagem
+		- Procedures
+			- compra_mobile

@@ -1,0 +1,36 @@
+- [x] Header
+	- [x] Numero Loja
+	- [x] Nome
+	- [x] Logout
+	- [x] Nome da Aplicação
+	- [x] Ajustar nomes quando n existe header
+- [x] SideBar
+	- [x] Home
+	- [x] Aplicações
+		- [x] Controle de NF
+		- [x] Expedição 
+		- [x] Fracttal One
+		- [x] Inventário
+		- [x] Movimentação
+		- [x] Prevenção
+		- [x] Recebimento
+		- [x] Relatório
+		- [x] Rh - Informações APAS
+		- [x] Scribes
+		- [x] Simulador de Preço
+	- [x] Formulários
+	- [x] Configurações
+- [x] Index
+	- [x] Cardápio
+	- [x] Calendário
+	- [x] Atalhos
+		- [x] Ramal
+		- [x] Formulários
+		- [x] APKs
+- [x] Configurações
+	- [x] Grupos
+	- [x] Aplicativos
+	- [x] Departamentos
+	- [x] Perfil
+	- [x] Usuário
+	- [x] Imagens

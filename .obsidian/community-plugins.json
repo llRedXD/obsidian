@@ -2,5 +2,9 @@
   "obsidian-icon-folder",
   "obsidian-icons-plugin",
   "obsidian-git",
-  "obsidian-outliner"
+  "obsidian-outliner",
+  "calendar",
+  "obsidian-checklist-plugin",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-minimal-settings"
 ]
