@@ -1,0 +1,29 @@
+- [ ] Diretoria
+	- [x] Relatório Aspas
+- [ ] Fiscal
+	- [x] Conferência Sat - Pdv x Gerencial x Fiscal | Descontinuado
+	- [x] Conferência Produto Tributação
+	- [ ] Entrada de Mercadoria VS Faturamento
+- [ ] Prevenção
+	- [x] Analise de Estoque CD x Loja com Média de Venda
+	- [x] Controle Validade de Produtos
+	- [x] Gestão de Movimentação - Operações
+	- [x] Qtd de Venda
+- [ ] Comercial
+	- [x] Margem Comercial
+	- [x] Custo x Preço
+- [ ] Dp/Rh
+	- [ ] Apas
+- [ ] Loja
+	- [ ] Controle Validade de Produtos
+	- [ ] Analise de Estoque Loja x CD
+	- [ ] Analise de Estoque CD x Loja com Média de Venda
+	- [ ] Margem Comercial
+	- [ ] Qtd Venda
+- [ ] Encarregado
+	- [x] Controle Validade de Produtos
+	- [ ] Analise de Estoque Loja x CD
+	- [ ] Analise de Estoque CD x Loja com Média de Venda
+	- [ ] Qtd Venda
+	- [ ] Gestão de Movimentação - Operações
+	- [ ] Insumo Ativo

@@ -46,7 +46,7 @@
 			- smy_receb_cargas
 		- Procedures
 			- ANALISE_RECEBIMENTO_CARGAS
-	- [ ] Analise de Estoque CD x Loja com Média de Venda
+	- [x] Analise de Estoque CD x Loja com Média de Venda
 		- Tabelas
 			- mrl_custodia
 			- mrl_produtoempresa
@@ -225,7 +225,7 @@
 	- [ ] Gestão de Movimentação - Operações
 		- Tabelas
 		- Procedures
-	- [ ] Insumo Ativo
+	- [x] Insumo Ativo
 		- Tabelas
 			- MAP_PRODUTO
 			- MAP_PRODINSUMO

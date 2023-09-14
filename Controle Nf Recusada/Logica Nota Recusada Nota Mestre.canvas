@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"text","text":"Ao bipar vai mandar o valor da chave de acesso","id":"07e73e6dec1f347a","x":-381,"y":-240,"width":250,"height":140},
+		{"type":"text","text":"Com a chave de acesso consultar a tabela rf_notamestre que irá retornar o seqnota","id":"daaebdd45b3f6cea","x":-381,"y":99,"width":250,"height":141},
+		{"type":"text","text":"Adiciona a nota devolvida com o seqnota em vez da chave de acesso","id":"93b1072f8e536cd9","x":72,"y":89,"width":247,"height":161},
+		{"type":"text","text":"Ao pesquisar os dados da nota usar o seqnota para achar a nota e usar o seqpessoa da nota para pegar os dados adicionais necessarios","id":"e3c81264c29bd9a1","x":524,"y":80,"width":250,"height":180}
+	],
+	"edges":[
+		{"id":"ead9792c5342f5c4","fromNode":"07e73e6dec1f347a","fromSide":"bottom","toNode":"daaebdd45b3f6cea","toSide":"top"},
+		{"id":"1c3be14ed01b1e03","fromNode":"daaebdd45b3f6cea","fromSide":"right","toNode":"93b1072f8e536cd9","toSide":"left"},
+		{"id":"a4e4762e8799b726","fromNode":"93b1072f8e536cd9","fromSide":"right","toNode":"e3c81264c29bd9a1","toSide":"left"}
+	]
+}
